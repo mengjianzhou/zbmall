@@ -1,2 +1,17 @@
 server:
   port: 9999
+
+
+spring:
+  datasource:
+#   数据源基本配置
+    username: robert
+    password: Robert@123
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.106.128.18:3306/zbmall
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+
+
